@@ -3,12 +3,13 @@
     <title>Prime</title>
   </head>
   <body>
-    <form
-    <input id="maxnum" type="text">
-    <input id="submit" type="submit">
+    <form id="test">
+      <input id="maxnum" type="text">
+      <input id="submit" type="submit">
+    </form>
       <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
     <script>
-      $("#submit").on('submit', function() {
+      $("#test").submit(function() {
       var max = $('#input').val()
       console.log(max)
       })
