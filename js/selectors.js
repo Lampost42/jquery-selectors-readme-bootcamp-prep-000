@@ -1,3 +1,3 @@
-     $(document).$("#submit").on('click', function() {
+     $(document).on('click', function() {
   
       });
