@@ -9,10 +9,10 @@
     </form>
       <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
     <script>
-      $("#test").submit(function(event) {
+      $("#submit").on('click', function() {
       var max = $('#input').val()
       console.log(max)
-      })
+      });
     </script>
   </body>
 </html>
