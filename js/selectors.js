@@ -1,3 +1,3 @@
-     $(document)..on('click', function() {
-  
+     $("#submit").on('click', function() {
+      var max = $('#input').val();
       });
